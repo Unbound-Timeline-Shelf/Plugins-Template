@@ -590,7 +590,7 @@ tested scope and limitations.
 
 If your plugin needs a capability, UI contribution, route or runtime behavior
 that the released application does not expose, propose the smallest general
-extension to the [main application](https://github.com/Rosefall-a/unnamed_tracking_app).
+extension to the [main application](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf).
 Open the PR against its `main` branch and follow that repository's AGENTS.md,
 contribution instructions and tests. This template's repository is for plugin
 development; host behavior belongs in the application.
