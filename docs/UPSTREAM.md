@@ -27,7 +27,7 @@ or catalogue is copied.
 
 ## CI host reference repair (9 October 2026)
 
-Both blocking CI jobs now clone the [new application repository](https://github.com/obsoletelabs/unnamed_tracking_app_2)
+Both blocking CI jobs now clone the [new application repository](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf)
 and pin revision `ac9a2633807490dfc7feec70d949c3d37ed4ba99`. The earlier
 `6bae984ce7590903e9144e4301ffa1b0fe65c809` checkout is unavailable from the
 original repository's clone, so both jobs stopped before host conformance.
@@ -66,10 +66,10 @@ The original provenance and adaptations below remain relevant history.
 
 Inspected on 3 October 2026:
 
-- Source: [plugin repository](https://github.com/Rosefall-a/unnamed_tracking_app_plugins),
+- Source: [plugin repository](https://github.com/Unbound-Timeline-Shelf/Plugins),
   revision `8bc13e2ef97bc48a774b54490ee0f93744e6458c`.
 - Template starting revision: `a9dbee4ae60c17c9d8aa5e3bd024aa60c7254ff4` (README only).
-- Public host integration target: [host contract revision](https://github.com/Rosefall-a/unnamed_tracking_app/tree/83a6fadec8b725bf94bec4583faab48af2aa84dc),
+- Public host integration target: [host contract revision](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf/tree/83a6fadec8b725bf94bec4583faab48af2aa84dc),
   revision `83a6fadec8b725bf94bec4583faab48af2aa84dc`.
 - Exported manifest/UI schemas originate at host
   `f1165fcc805e57ee428e7bc42fa6b83f4a6caf25`; current host conformance is tested
