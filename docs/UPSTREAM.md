@@ -15,6 +15,15 @@ revision `91921e5`.
 - Updated `API_CONTRACT_VERSION` to `1.1.11`.
 - Synchronized SDK modules (metadata providers, notification stories, appearance bridge).
 - Synchronized capability schemas for manifest and UI validation.
+## Host revision and SDK helpers synchronized (18 October 2026)
+
+Both blocking CI jobs now check the template against application revision
+`59d143df8fdf1b4c32ca35fccc9c93646055ad54` (main after PR #281), whose contract version is 1.1.14. The bundled
+`sdk/` is synchronized verbatim with the official companion repository at `c0b3be0`: `plugin_protocol.py`
+(1.1.11), and the new public helpers `public_apps.py` (1.1.12), `metadata_provider.py` (1.1.13), `notifications.py`
+and `notification_stories.py` (1.1.14). `discord_embeds.py` is Discord-specific and is deliberately not included.
+Generated plugins still declare 1.1.0 (see [V1_1.md](V1_1.md)). No official implementation, publisher identity, runtime
+or catalogue is copied.
 
 ## CI host reference repair (9 October 2026)
 
