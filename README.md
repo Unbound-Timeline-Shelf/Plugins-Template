@@ -1,4 +1,4 @@
-# Make your own Unnamed Tracking plugin
+# Make your own Unbound Timeline plugin
 
 This is a community/developer template for **your independent plugin repository**:
 personal, private, experimental or published. It uses the real Plugin API v1.1 SDK,
